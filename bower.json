@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Manolo Carrasco <manolo@vaadin.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "^1.0.7",
+    "vaadin-combo-box": "^1.0.0"
+  }
+}

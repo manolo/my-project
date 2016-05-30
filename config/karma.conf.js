@@ -23,6 +23,9 @@ module.exports = function (config) {
 
       { pattern: 'config/karma-test-shim.js', included: true, watched: true },
 
+      'dist/bower_components/webcomponentsjs/webcomponents-lite.js',
+      'dist/elements.html',
+
       // Distribution folder.
       { pattern: 'dist/**/*', included: false, watched: true }
     ],

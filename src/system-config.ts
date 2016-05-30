@@ -1,12 +1,12 @@
 /***********************************************************************************************
  * User Configuration.
  **********************************************************************************************/
-/** Map relative paths to URLs. */
-const map: any = {
-};
 
-/** User packages configuration. */
+const map: any = {
+  '@vaadin': 'vendor/@vaadin'
+};
 const packages: any = {
+  '@vaadin/angular2-polymer': { main: 'index.js', defaultExtension: 'js' }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
